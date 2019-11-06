@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+
+<html>
+<head>
+    <title> student registration form</title>
+    <link rel="stylesheet" href="{% static 'css/new1.css' %}">
+      <script src="{% static '/js/new.js' %}"></script>
+
+</head>
+   <body>
+   <center><h1><b>LOGIN FORM</b></h1></center>
+   <center><h2>Student registration</h2></center>
+<!--    <img src="{% static 'img/snow.jpeg' %}" alt="Error importing image">-->
+      <center><p>Add your details:</p></center>
+      <center><form>
+         <b>Student Name</b>:<br> <input type="text" name="name">
+         <br>
+          <br>
+         <b>Student course</b>:<br><input type="text" name="subject">
+         <br>
+          <br>
+         <b>Registration id</b>:<br> <input type="text" name="rank">
+          <br>
+          <br>
+          <b>Password</b>:<br> <input type="text" name=""
+      </form></center>
+   </body>
+</html>
